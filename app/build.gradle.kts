@@ -73,4 +73,10 @@ dependencies {
 
     // Actualiza la versión de Kotlin
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+    // Dependencias de prueba
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.1")
+
+    // Dependencias de Strikt
+    testImplementation("io.strikt:strikt-core:0.31.0")
 }
